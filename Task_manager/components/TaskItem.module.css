@@ -1,0 +1,32 @@
+.TaskItemm {
+  background-color: rgb(210, 220, 220);
+  width: 300px;
+  margin-left: 55px;
+  opacity: 0.8;
+  border-radius: 3px;
+}
+p {
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(30, 30, 29);
+}
+.deleteButton {
+  float: right;
+  border-radius: 7px;
+  color: rgb(123, 199, 173);
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: -14px;
+}
+.editButton {
+  float: right;
+  margin-top: -14px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 7px;
+}
+.completed {
+  text-decoration: line-through;
+}

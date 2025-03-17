@@ -1,0 +1,36 @@
+.InputForm {
+  margin: 20px 0px 10px 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  padding: 30px;
+}
+.Inputt {
+  background-color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 55px;
+}
+.Inputt:focus,
+.inputDescription:focus,
+.inputDate:focus {
+  outline: none;
+}
+.buttonn {
+  margin-left: 10px;
+  padding: 6px 10px;
+  border-radius: 7px;
+  border: none;
+  color: rgb(72, 167, 72);
+  float: right;
+  margin-top: -5px;
+}
+.inputDescription {
+  border: 1px solid rgb(168, 160, 160);
+  margin-bottom: 5px;
+  padding: 2px 25px 5px 2px;
+}
+.inputDate {
+  border: 1px solid rgb(168, 160, 160);
+}
