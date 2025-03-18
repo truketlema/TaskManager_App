@@ -23,24 +23,9 @@ export default function TaskList({
     <div>
       {/* Filter Buttons */}
       <div className={styles.filterContainer}>
-        <button
-          onClick={() => setFilter("all")}
-          className={filter === "all" ? styles.active : ""}
-        >
-          All
-        </button>
-        <button
-          onClick={() => setFilter("completed")}
-          className={filter === "completed" ? styles.active : ""}
-        >
-          Completed
-        </button>
-        <button
-          onClick={() => setFilter("pending")}
-          className={filter === "pending" ? styles.active : ""}
-        >
-          Pending
-        </button>
+        <button onClick={() => setFilter("all")}>All</button>
+        <button onClick={() => setFilter("completed")}>Completed</button>
+        <button onClick={() => setFilter("pending")}>Pending</button>
       </div>
       <div>
         {sortedTasks.map((task, index) => (
